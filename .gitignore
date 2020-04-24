@@ -1,0 +1,18 @@
+*.class
+target/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.log
+
+hs_err_pid*
+logs
+/.idea/workspace.xml
+
+*.iml
+.idea
