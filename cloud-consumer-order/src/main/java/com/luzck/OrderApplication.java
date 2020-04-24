@@ -5,12 +5,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  @author luzc
- @since 2020/4/23 */
+ @since 2020/4/24 */
 @SpringBootApplication
-public class PaymentMainApplication {
+public class OrderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PaymentMainApplication.class, args);
+        SpringApplication.run(OrderApplication.class, args);
     }
-
+    
 }
