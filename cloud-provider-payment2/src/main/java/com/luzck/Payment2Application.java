@@ -2,7 +2,6 @@ package com.luzck;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
@@ -10,11 +9,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  @since 2020/4/23 */
 @SpringBootApplication
 @EnableEurekaClient
-@EnableDiscoveryClient
-public class PaymentApplication {
+public class Payment2Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(PaymentApplication.class, args);
+        SpringApplication.run(Payment2Application.class, args);
     }
 
 }
